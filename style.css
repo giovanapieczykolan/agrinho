@@ -1,0 +1,311 @@
+.cabecalho{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(228, 173, 219);
+}
+
+
+.logo{
+
+    width: 10%;
+}
+.logo2{
+    width: 10%;
+}
+.bolo1{
+    width: 17%;
+}
+.bolo2{
+    width: 21%;
+    height: 21%;
+}
+.bolo3{
+    width: 15%;
+}
+.bolo4{
+    width: 15%;
+}
+.bolo5{
+    width: 16%;
+}
+.bolo6{
+    width: 14%;
+}
+.bolo7{
+    width: 16%;
+}
+.bolo8{
+    width: 16%;
+}
+.bolo9{
+    width: 17%;
+}
+.bolo10{
+    width: 17%;
+}
+.bolo11{
+    width: 16%;
+}
+.bolo12{
+    width: 16%;
+}
+.preços{
+    background-color: rgb(199, 173, 223);
+}
+.tabela{
+    background-color:rgb(199, 173, 223) ;
+}
+.bp1{
+    width: 15%;
+}
+.bp2{
+    width: 15%;
+}
+.bp3{
+    width: 14%;
+}
+.bp4{
+    width: 18%;
+}
+.bp5{
+    width: 15%;
+}
+.bp6{
+    width: 21%;
+}
+.tabela2{
+    background-color: rgb(87, 140, 190);
+}
+.p2{
+    background-color: rgb(87, 140, 190); ;
+}
+.bp7{
+    width: 14%;
+}
+.bp8{
+    width: 16%;
+}
+.bp9{
+    width: 17%;
+}
+.bp10{
+    width: 14%;
+}
+.bp11{
+    width: 17%;
+}
+.bp12{
+    width: 20%;
+}
+.brigadeiro{
+    width: 19%;
+}
+.dl{
+    width: 15%;
+}
+.leiten{
+    width: 18%;
+}
+.nesck{
+    width: 13%;
+}
+.nutela{
+    width: 14%;
+}
+.uva{
+    width: 19%;
+}
+.oreo{
+    width: 17%;
+}
+.bueno{
+    width: 17%;
+}
+.tres{
+    width: 18%;
+}
+.morango{
+    width: 17%;
+}
+.limao{
+    width: 14%;
+}
+.bn{
+    width: 15%;
+}
+.tabela3{
+    background-color: rgb(231, 163, 163);
+}
+.p3{
+    background-color:  rgb(231, 163, 163);
+}
+.section1{
+    margin-top: 20px;
+}
+.tabela4{
+    background-color: rgb(169, 227, 245);
+}
+.p4{
+    background-color: rgb(169, 227, 245);
+} 
+.d1{
+    width: 17%;
+}
+.d2{
+    width: 12%;
+}
+.d3{
+    width: 20%;
+}
+.d4{
+    width: 16%;
+}
+.d5{
+    width: 16%;
+}
+.d6{
+    width: 17%;
+}
+.d7{
+    width: 16%;
+}
+.d8{
+    width: 18%;
+}
+.d9{
+    width: 15%;
+}
+.d10{
+    width: 17%;
+}
+.d11{
+    width: 16%;
+}
+.d12{
+    width: 16%;
+}
+.footer{
+    background-color: rgb(158, 170, 223);
+    margin-top: 5%;
+}
+.box-busca{ 
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background-color: #ffffff;
+}
+
+
+.search-box-input::placeholder {
+    
+    color:#ffffff;
+    opacity: 0.6;
+
+}
+
+/* Chrome, Opera ySafari */
+.search-box-input::-webkit-input-placeholder { color: #ffffff; }
+
+/* Firefox 19+ */
+.search-box-input::-moz-placeholder { color: #ffffff; }
+
+/* IE 10+ y Edge */
+.search-box-input:-ms-input-placeholder { color: #ffffff; }
+
+
+.search-box form {
+    
+    display: flex;
+    border-radius: 50px;
+    background-color: #4c4c4c;
+    height: 45px;
+
+}
+
+.search-box:hover .search-box-input {
+    
+    padding-left: 2em;
+    padding-right: 1em;
+    width: 250px;
+
+}
+
+.search-box-input {
+
+    outline: 0;
+    font-size: 1.2em;
+    color: #fff;
+    width: 0;
+    padding: 0;
+    border: none;
+    background: none;
+    transition: .45s;
+
+}
+
+.search-box-button {
+
+   display: flex;
+   border-radius: 50%;
+   width: 45px;
+   height: 45px;
+   background-color: rgb(199, 173, 223);
+   border: none;
+   cursor: pointer;
+   transition: .3s;
+
+}
+
+.search-box-button:active  {
+
+    transform: scale(.85);
+
+}
+
+.search-box-icone {
+
+    margin: auto;
+    color: #fff;
+
+}
+
+
+@media screen and (min-width: 400px){
+    
+    .search-box:hover .search-box-input {
+        width: 360px;
+    }
+
+}
+
+    ul {
+    
+        width:100%; 
+        float:left; 
+        text-align:center; 
+    }
+    li {
+        padding-right: 20px;
+        display: inline-block;
+        list-style:none;
+    }
+    li .mymenu {
+       font-family: 'open_sansbold';
+       font-size:1.6em;
+       text-decoration: none;
+       color:#4c4c4c;
+       -webkit-border-box: 0 1px 0 0 #4c4c4c;
+       border-bottom: 4px solid transparent;
+       -webkit-transition: border-bottom .3s linear;
+    }
+    li .mymenu:hover {
+        
+        border-bottom:4px solid #4c4c4c;
+    }
+.escolher{
+    text-align: center;
+}
